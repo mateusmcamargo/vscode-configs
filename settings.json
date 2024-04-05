@@ -1,0 +1,41 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "hidden",
+    "workbench.startupEditor": "welcomePage",
+    "workbench.statusBar.visible": true,    
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": true, //change colors of variables (const, var, let, ...)
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "window.commandCenter": false,
+    "window.titleBarStyle": "custom",
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none"
+    },
+    "apc.font.family": "Nunito",
+    "debug.internalConsoleOptions": "neverOpen",
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.showOutputWindowOn": "Error"
+}

@@ -1,14 +1,8 @@
 {
-    "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.labelFormat": "short",
-    "workbench.activityBar.location": "hidden",
-    "workbench.startupEditor": "welcomePage",
-    "workbench.statusBar.visible": true,    
     "editor.minimap.enabled": false,
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 14,
-    "editor.lineHeight": 1.8,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 2,
     "editor.rulers": [80, 120],
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
@@ -16,15 +10,33 @@
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "explorer.compactFolders": false,
-    "breadcrumbs.enabled": false,
     "files.exclude": {
         "**/.git": false
     },
     "window.commandCenter": false,
     "window.titleBarStyle": "custom",
-    "workbench.layoutControl.enabled": false,
     "window.menuBarVisibility": "compact",
-    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.colorTheme": "Dracula Theme",
+    //"workbench.colorTheme": "Min Dark",
+    //"workbench.colorTheme": "One Dark Pro Darker",
+    //"workbench.colorTheme": "Min Light",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "hidden",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "workbench.colorCustomizations": {
+        //"titleBar.activeBackground": "",
+        //"titleBar.activeForeground": "#e2e2e2",
+        //"titleBar.border": "#63b9ff",
+    },
+    "workbench.statusBar.visible": true,    
+    "zenMode.hideLineNumbers": false,
+    "zenMode.centerLayout": true,
+    "zenMode.hideStatusBar": true,
+    "zenMode.showTabs": "multiple",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "apc.header": {
         "height": 36
     },
@@ -37,5 +49,29 @@
     "apc.font.family": "Nunito",
     "debug.internalConsoleOptions": "neverOpen",
     "liveSassCompile.settings.watchOnLaunch": true,
-    "liveSassCompile.settings.showOutputWindowOn": "Error"
+    "liveSassCompile.settings.showOutputWindowOn": "Error",
+    "liveServer.settings.CustomBrowser": "firefox",
+    "editor.wordWrap": "on",
+    "redhat.telemetry.enabled": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
+
+/*
+python:
+    ctrl + alt + p --> run
+*/
